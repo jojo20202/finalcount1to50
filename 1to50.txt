@@ -1,1 +1,9 @@
 this is text to count 1 to 50
+
+code used to count 1 to 50 in vim
+
+#!/bin/bash
+
+for i in $(seq 1 50); do
+	echo $i
+done
